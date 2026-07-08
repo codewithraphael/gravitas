@@ -9,7 +9,18 @@ def show_menu():
     print('[3.] Delete Task')
     print('[4.] Exit')
 
+with open('tasks.txt', 'w') as file:
+    for task in tasks:
+        file.write(task + '\n')
+
+
 tasks = []
+
+try:
+    with open('tasks.txt') as file:
+        tasks = file.read().splitlines()
+except FileNotFoundError:
+    pass
 
 while True:
     show_menu()
