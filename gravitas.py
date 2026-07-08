@@ -9,12 +9,13 @@ def show_menu():
     print('[3.] Delete Task')
     print('[4.] Exit')
 
+
+tasks = []
+
 with open('tasks.txt', 'w') as file:
     for task in tasks:
         file.write(task + '\n')
 
-
-tasks = []
 
 try:
     with open('tasks.txt') as file:
