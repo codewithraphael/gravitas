@@ -1,4 +1,10 @@
-﻿# GRAVITAS
+﻿<p align="center">
+  <img src="assets/gravitas.png" alt="Banner">
+</p>
+
+
+
+# GRAVITAS
 
 A CLI-based todo list app to help you stay organized and focused under pressure.
 
