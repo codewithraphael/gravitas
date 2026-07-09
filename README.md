@@ -22,14 +22,14 @@ Gravitas is a lightweight task manager built for the terminal. It lets you add t
 1. Clone the repository:
 
 
-git clone https://github.com/codewithraphael/gravitas.git
+>> git clone https://github.com/codewithraphael/gravitas.git
 
-cd gravitas
+>> cd gravitas
 
 
 2. Run the app:
 
-python main.py
+>> python main.py
 
 
 ## Usage
