@@ -41,6 +41,7 @@ When the app starts, you will see a menu with options:
 - 3 Delete Task
 - 4 Exit
 
+
 Follow the prompts to add a new todo or view your current list.
 
 ## Notes
