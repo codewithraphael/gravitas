@@ -1,6 +1,9 @@
 from ui.menu import show_menu
 from ui.display import show_tasks
 from core.tasks import add_task, get_tasks, delete_task
+from rich.console import Console
+
+console = Console()
 
 
 while True:
@@ -11,7 +14,6 @@ while True:
     if choice == '1':
         task = input('Enter task :')
         add_task(task)
-        print(f'Task "{task}" added successfully')
 
     elif choice == '2':
         show_tasks(get_tasks())
@@ -22,10 +24,11 @@ while True:
         delete_task(number - 1)
 
     elif choice == '4':
+        console.print('[green]Exiting...[/green]')
         break
 
     else:
-        print('Invalid option.')
+        console.print('[red]Invalid option.[/red]')
 
 
 
