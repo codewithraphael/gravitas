@@ -4,7 +4,7 @@
 
 
 
-# GRAVITAS
+# `GRAVITAS`
 
 A CLI-based todo list app to help you stay organized and focused under pressure.
 
@@ -21,16 +21,16 @@ Gravitas is a lightweight task manager built for the terminal. It lets you add t
 
 1. Clone the repository:
 
-`ash
+
 git clone https://github.com/codewithraphael/gravitas.git
+
 cd gravitas
-`
+
 
 2. Run the app:
 
-`ash
 python main.py
-`
+
 
 ## Usage
 
