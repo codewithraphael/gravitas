@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="assets/gravitas.png" alt="Banner">
+  <img src="assets/gravitas_banner.png" alt="Banner">
 </p>
 
 
@@ -32,12 +32,17 @@ Gravitas is a lightweight task manager built for the terminal. It lets you add t
 >> python main.py
 
 
+<p align="center">
+  <img src="assets/gravitas_cli.png" alt="Banner">
+</p>
+
+
 ## Usage
 
 When the app starts, you will see a menu with options:
 
 - 1 Add Task
-- 2 View Task
+- 2 View Tasks
 - 3 Delete Task
 - 4 Exit
 
