@@ -1,8 +1,9 @@
+from ui.display import show_logo
+
 def show_menu():
-    print('='*100)
-    print(f"GRAVITAS : /'gravItas/ noun: ability to remain calm")
-    print('='*100)
+    show_logo()
+
     print('[1.] Add Task')
-    print('[2.] View Task')
+    print('[2.] View Tasks')
     print('[3.] Delete Task')
     print('[4.] Exit')
