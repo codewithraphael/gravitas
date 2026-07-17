@@ -1,0 +1,3 @@
+buy a gpu
+dive deep into deep learning
+train neural networks
